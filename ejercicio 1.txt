@@ -1,0 +1,11 @@
+texto="arquitectura"
+vocal="aeiou"
+contador=0
+
+for letra in texto:
+    if letra in vocal:
+       contador += 1
+print("cantidad de vocal", contador)
+
+range(21)
+
